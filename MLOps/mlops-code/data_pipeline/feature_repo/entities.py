@@ -1,9 +1,9 @@
 from feast import Entity
 
-driver = Entity(
-    name="driver",
-    join_keys=["driver_id"],
-    description="driver id",
+account = Entity(
+    name="Account",
+    join_keys=["Account"],
+    description="User id",
     tags={},
-    owner="mlopsvn@gmail.com",
+    owner="sontvh2002@gmail.com",
 )

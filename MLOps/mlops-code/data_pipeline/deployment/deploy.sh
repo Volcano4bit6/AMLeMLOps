@@ -6,8 +6,8 @@ cmd=$1
 DOCKER_USER="$DOCKER_USER"
 PROJECT="mlops_crash_course"
 IMAGE_NAME="data_pipeline"
-# IMAGE_TAG=$(git describe --always)
-IMAGE_TAG="latest"
+IMAGE_TAG=$(git describe --always)
+# IMAGE_TAG="latest"
 
 if [[ -z "$DOCKER_USER" ]]; then
     echo "Missing \$DOCKER_USER env var"

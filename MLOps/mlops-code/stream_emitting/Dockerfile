@@ -2,7 +2,7 @@ FROM python:3.9-slim
 
 # copy code, data and dependencies
 COPY stream_emitting.py stream_emitting.py
-COPY data/driver_stats_stream.parquet data/driver_stats_stream.parquet
+COPY data/HI-Small_Trans_stream.parquet data/HI-Small_Trans_stream.parquet
 COPY dev_requirements.txt requirements.txt
 
 # install dependencies

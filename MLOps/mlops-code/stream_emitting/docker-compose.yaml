@@ -28,7 +28,7 @@ services:
             dockerfile: Dockerfile
         environment:
             BOOTSTRAP_SERVERS: localhost:29092
-            DATA: data/driver_stats_stream.parquet
+            DATA: data/HI-Small_Trans_stream.parquet
         depends_on:
             - broker
         network_mode: "host"
